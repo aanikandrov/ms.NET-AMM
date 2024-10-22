@@ -47,6 +47,4 @@
 
 
 #
-
-![ms NET](https://github.com/user-attachments/assets/4b477b84-8e28-4e96-a4bd-e3baaf1d8899)
-
+![image](https://github.com/user-attachments/assets/5bd097c5-f15c-4ae4-a588-941f72df127f)
