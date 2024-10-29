@@ -1,5 +1,5 @@
 ﻿namespace HistoricalBook.Service.IoC;
-
+ 
 public static class SwaggerConfigurator
 {
     public static void ConfigureServices(IServiceCollection services)

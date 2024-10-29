@@ -1,7 +1,7 @@
 ﻿using Serilog;
 
 namespace HistoricalBook.Service.IoC;
-
+ 
 public static class SerilogConfigurator
 {
     public static void ConfigureService(WebApplicationBuilder builder)
