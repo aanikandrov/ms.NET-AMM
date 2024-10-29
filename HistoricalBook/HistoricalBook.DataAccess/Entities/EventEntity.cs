@@ -10,6 +10,6 @@ public class EventEntity : BaseEntity
     public DateTime BeginDate { get; set; }
     public DateTime EndDate { get; set; }
     
-    public List<NoteEntity> Notes { get; set; } = new List<NoteEntity>();
-    public List<PersonEntity> Events { get; set; } = new List<PersonEntity>();
+    public List<NoteEventEntity> NoteEvent { get; set; } = new List<NoteEventEntity>();
+    public List<PersonEventEntity> PersonEvent { get; set; } = new List<PersonEventEntity>();
 }
