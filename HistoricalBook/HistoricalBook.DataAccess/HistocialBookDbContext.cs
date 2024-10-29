@@ -37,6 +37,8 @@ public class HistoricalBookDbContext : DbContext
         modelBuilder.Entity<EventEntity>().HasKey(e => e.Id);
 
         
+        
+        
         modelBuilder.Entity<UserNoteEntity>()
             .HasKey(un => new { un.UserID, un.NoteID });
 
