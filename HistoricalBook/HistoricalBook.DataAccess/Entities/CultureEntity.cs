@@ -9,4 +9,7 @@ public class CultureEntity : BaseEntity
     public string Description { get; set; }
     public DateTime CreationDate { get; set; }
     public string Location { get; set; }
+            
+    public int PersonID { get; set; }
+    public PersonEntity Person { get; set; }
 }

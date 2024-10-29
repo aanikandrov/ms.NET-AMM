@@ -9,4 +9,6 @@ public class UserEntity : BaseEntity
     public string HashPassword { get; set; }
     public string Email { get; set; }
     public int Role { get; set; }
+    
+    public List<NoteEntity> Notes { get; set; } = new List<NoteEntity>();
 }
