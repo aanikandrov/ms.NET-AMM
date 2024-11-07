@@ -9,7 +9,7 @@ public class PersonEntity : BaseEntity
     public DateTime BirthDate { get; set; }
     public DateTime DeathDate { get; set; }
     
-    public List<NotePersonEntity> NotePerson { get; set; } = new List<NotePersonEntity>();
+    public List<NotePersonEntity> NotePerson { get; set; } //= new List<NotePersonEntity>();
 
-    public List<PersonEventEntity> PersonEvent { get; set; } = new List<PersonEventEntity>();
+    public List<PersonEventEntity> PersonEvent { get; set; } //= new List<PersonEventEntity>();
 }

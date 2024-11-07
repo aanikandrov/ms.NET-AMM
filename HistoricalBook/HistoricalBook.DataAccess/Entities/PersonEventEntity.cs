@@ -2,7 +2,7 @@
 namespace HistoricalBook.DataAccess.Entities;
 
 
-[Table("NoteEvent")]
+[Table("PersonEventEntity")]
 public class PersonEventEntity
 {
     public int EventID { get; set; }

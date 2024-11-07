@@ -10,5 +10,5 @@ public class UserEntity : BaseEntity
     public string Email { get; set; }
     public int Role { get; set; }
     
-    public List<UserNoteEntity> UserNote { get; set; } = new List<UserNoteEntity>();
+    public List<UserNoteEntity> UserNote { get; set; } //= new List<UserNoteEntity>();
 }

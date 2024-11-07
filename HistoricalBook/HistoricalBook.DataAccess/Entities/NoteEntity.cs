@@ -11,7 +11,7 @@ public class NoteEntity : BaseEntity
     public DateTime UpdateDate { get; set; }
     public int Rating { get; set; }
     
-    public List<UserNoteEntity> UserNote { get; set; } = new List<UserNoteEntity>();
-    public List<NoteEventEntity> NoteEvent { get; set; } = new List<NoteEventEntity>();
-    public List<NotePersonEntity> NotePerson { get; set; } = new List<NotePersonEntity>();
+    public List<UserNoteEntity> UserNote { get; set; } // = new List<UserNoteEntity>();
+    public List<NoteEventEntity> NoteEvent { get; set; } // = new List<NoteEventEntity>();
+    public List<NotePersonEntity> NotePerson { get; set; } // = new List<NotePersonEntity>();
 }

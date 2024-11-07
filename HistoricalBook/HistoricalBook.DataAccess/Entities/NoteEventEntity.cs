@@ -9,5 +9,5 @@ public class NoteEventEntity
     public EventEntity Event { get; set; }
     
     public int NoteID { get; set; }
-    public UserEntity Note { get; set; }
+    public NoteEntity Note { get; set; }
 }
